@@ -55,6 +55,8 @@ func getOneLedger(w http.ResponseWriter, r *http.Request) {
 }
 
 func getAllLedgers(w http.ResponseWriter, r *http.Request) {
+	// Set CORS headers for the main request.
+	w.Header().Set("Access-Control-Allow-Origin", "*")
 	json.NewEncoder(w).Encode(ledgers)
 }
 
