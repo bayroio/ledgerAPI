@@ -120,6 +120,11 @@ docker image ls
 docker rm --force linux_tweet_app
 ```
 
+Eliminar la imagen Docker usando su image ID:
+```
+docker image rm --force 7c368de4c190
+```
+
 > Login en Docker Hub:
 ```
 docker login
