@@ -14,7 +14,7 @@ Decentralization and blockchain add great value to a variety of industries, use 
     -   `docker-compose build`
 -   Start containers
     -   `docker-compose up -d`
--  Or if you don't want build the images from the code, so you can find two public images to build the containers in this links:
+-  Or if you don't want build the images from the code, so you can find two public images to build the containers in these links:
 	- [https://hub.docker.com/repository/docker/eherrador/ledger-api_nginx](https://hub.docker.com/repository/docker/eherrador/ledger-api_nginx)
 	- [https://hub.docker.com/repository/docker/eherrador/ledger-api_goservice](https://hub.docker.com/repository/docker/eherrador/ledger-api_goservice)
    
